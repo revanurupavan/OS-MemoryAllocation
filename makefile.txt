@@ -1,0 +1,8 @@
+all: program1
+
+program1:
+	g++ MMS.c -pthread -o MMS.o
+
+
+clean:
+	rm -f program1 *.o
